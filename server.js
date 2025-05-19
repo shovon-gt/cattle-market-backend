@@ -7,6 +7,13 @@ const routes = require('./routes.json');
 server.use(middlewares);
 server.use(jsonServer.bodyParser); // ✅ required for req.body
 
+const jsonServer = require('json-server'); // only once!
+server.listen(port, () => {
+  console.log(`JSON Server is running on port ${port}`);
+});
+server.use(middlewares);
+server.use(router);
+
 // server.js
 const jsonServer = require('json-server');
 const port = process.env.PORT || 3000;
