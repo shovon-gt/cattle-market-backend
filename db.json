@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234",
+      "token": "fake-jwt-token"
+    }
+  ],
+  "cattle": [
+    {
+      "id": "1",
+      "breed": "Brahman",
+      "weight": 250,
+      "price": 850.4203,
+      "available": true
+    },
+    {
+      "id": "2",
+      "breed": "Angus",
+      "weight": 650,
+      "price": 120.1401,
+      "available": false
+    },
+    {
+      "id": "3",
+      "breed": "Holstein",
+      "weight": 700,
+      "price": 150.1301,
+      "available": true
+    },
+    {
+      "id": "d9ee",
+      "breed": "Home",
+      "weight": 233,
+      "price": 123.44,
+      "available": false
+    },
+    {
+      "id": "184d",
+      "breed": "Home",
+      "weight": 123,
+      "price": 234,
+      "available": true
+    },
+    {
+      "id": "2176",
+      "breed": "Home",
+      "weight": 123,
+      "price": 130,
+      "available": true
+    }
+  ]
+}
